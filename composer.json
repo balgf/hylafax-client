@@ -1,0 +1,27 @@
+{
+    "name": "balgf/hylafax-php-client",
+    "description": "HylaFAX PHP Client",
+    "keywords": [
+        "hylafax",
+        "php",
+        "fax",
+        "client"
+    ],
+    "authors": [
+        {
+            "name": "balgf"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/console" : "v3.0.4"
+    },
+    "autoload": {
+        "classmap": [
+            "src/Balgf/HylaFAXClient"
+        ],
+        "psr-0": {
+            "Balgf\\HylaFAXClient\\": "src/"
+        }
+    }
+}
